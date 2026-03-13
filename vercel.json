@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "quiz-frances-charlie",
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
+}

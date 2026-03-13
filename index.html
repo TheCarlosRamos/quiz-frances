@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz de Francês — Passé Composé (verbos irregulares)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Quiz de Francês do Charlie — Passé Composé</h1>
+      <p class="subtitle">Verbos (principalmente) irregulares • 10 rodadas</p>
+    </header>
+
+    <section id="screen-start" class="screen active" aria-labelledby="start-title">
+      <h2 id="start-title">Como funciona</h2>
+      <ul class="rules">
+        <li>Você verá um <strong>verbo no infinitivo</strong> (ex.: <em>venir</em>).</li>
+        <li>Escolha a forma correta no <strong>passé composé</strong> para <em>il</em> (masc. sing.).</li>
+        <li>Ao clicar, se errar fica <span class="badge wrong">vermelho</span> e a resposta certa aparece em <span class="badge correct">verde</span>.</li>
+        <li>São <strong>10 rodadas</strong>. Sua pontuação final aparece ao terminar.</li>
+      </ul>
+      <button id="btn-start" class="btn primary">Começar</button>
+    </section>
+
+    <section id="screen-quiz" class="screen" aria-live="polite">
+      <div class="hud">
+        <div id="progress" class="progress" aria-label="Progresso"><div class="bar"></div></div>
+        <div class="stats">
+          <span id="round">Rodada 1/10</span>
+          <span id="score">Score: 0</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="prompt">Escolha o passé composé para:</h2>
+        <div id="infinitive" class="infinitive">—</div>
+        <ol id="choices" class="choices" role="listbox" aria-label="Alternativas"></ol>
+        <div class="controls">
+          <button id="btn-next" class="btn" disabled>Próximo</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-end" class="screen" aria-labelledby="end-title">
+      <h2 id="end-title">Resultado</h2>
+      <p id="final-text" class="final-text"></p>
+      <div class="actions">
+        <button id="btn-retry" class="btn primary">Jogar novamente</button>
+      </div>
+      <details class="small">
+        <summary>Lista de verbos usados neste jogo</summary>
+        <ul id="used-list"></ul>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <small>
+        Dica: para verbos de movimento/estado (ex.: <em>aller, venir, naître, mourir</em>), usamos geralmente <strong>être</strong> como auxiliar no passé composé. Aqui usamos o sujeito <em>il</em> (masc. sing.) para simplificar.
+      </small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
