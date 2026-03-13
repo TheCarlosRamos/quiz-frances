@@ -44,5 +44,3 @@ O quiz inclui verbos irregulares comuns como:
 - Design responsivo
 
 ---
-
-Criado com ❤️ para estudantes de francês
