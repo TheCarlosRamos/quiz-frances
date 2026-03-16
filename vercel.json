@@ -3,7 +3,11 @@
   "name": "quiz-frances-charlie",
   "builds": [
     {
-      "src": "**/*",
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.{js,css}",
       "use": "@vercel/static"
     }
   ],
@@ -13,15 +17,7 @@
       "dest": "/index.html"
     },
     {
-      "src": "/index.html",
-      "dest": "/index.html"
-    },
-    {
       "src": "/passe-compose-quiz",
-      "dest": "/passe-compose-quiz.html"
-    },
-    {
-      "src": "/passe-compose-quiz.html",
       "dest": "/passe-compose-quiz.html"
     },
     {
@@ -29,22 +25,12 @@
       "dest": "/animais.html"
     },
     {
-      "src": "/animais.html",
-      "dest": "/animais.html"
-    },
-    {
       "src": "/partes-do-corpo",
       "dest": "/partes-do-corpo.html"
     },
     {
-      "src": "/partes-do-corpo.html",
-      "dest": "/partes-do-corpo.html"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
