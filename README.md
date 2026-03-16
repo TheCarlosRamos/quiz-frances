@@ -1,13 +1,31 @@
-# Quiz de Francês do Charlie — Passé Composé
+# Quiz de Francês do Charlie
 
-Um quiz interativo para praticar o passé composé em francês, focado em verbos irregulares.
+Uma coleção de quizzes interativos para aprender francês, incluindo gramática e vocabulário com design moderno.
+
+## � Quizzes Disponíveis
+
+### 📝 **Passé Composé**
+- 59 verbos irregulares comuns
+- Prática de conjugação para *il* (masc. sing.)
+- Foco em auxiliares *être* vs *avoir*
+
+### 🐾 **Animais**
+- 38 animais em francês
+- Tradução francês → português
+- Inclui artigos (le/la/l')
+
+### 👤 **Partes do Corpo**
+- 51 partes do corpo humano
+- Tradução francês → português
+- Vocabulário médico e cotidiano
 
 ## 🎯 Como Jogar
 
-1. Você verá um **verbo no infinitivo** (ex.: *venir*)
-2. Escolha a forma correta no **passé composé** para *il* (masc. sing.)
-3. Ao clicar, se errar fica **vermelho** e a resposta certa aparece em **verde**
-4. São **10 rodadas**. Sua pontuação final aparece ao terminar
+1. **Escolha um tema** na página principal
+2. **Siga as instruções** específicas de cada quiz
+3. **Clique na resposta** correta
+4. **Veja o feedback** imediato (verde/vermelho)
+5. **Complete 10 rodadas** e veja sua pontuação
 
 ## 🚀 Link para Acesso
 
@@ -19,15 +37,8 @@ Um quiz interativo para praticar o passé composé em francês, focado em verbos
 - **Interface responsiva** para desktop e mobile
 - **Feedback visual** imediato para respostas
 - **Progresso animado** com efeito shimmer
-- **Lista de verbos** utilizados ao final do jogo
-
-## 📚 Verbos Incluídos
-
-O quiz inclui verbos irregulares comuns como:
-- être, avoir, aller, faire, dire, voir
-- venir, devenir, revenir, prendre, mettre
-- pouvoir, vouloir, devoir, savoir, lire
-- E muitos mais!
+- **Navegação intuitiva** entre quizzes
+- **Lista de termos** utilizados ao final
 
 ## 🛠️ Tecnologias
 
@@ -44,5 +55,3 @@ O quiz inclui verbos irregulares comuns como:
 - Design responsivo
 
 ---
-
-Criado com ❤️ para estudantes de francês
