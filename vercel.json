@@ -11,6 +11,18 @@
     {
       "src": "/",
       "dest": "/index.html"
+    },
+    {
+      "src": "/passe-compose-quiz",
+      "dest": "/passe-compose-quiz.html"
+    },
+    {
+      "src": "/animais",
+      "dest": "/animais.html"
+    },
+    {
+      "src": "/partes-do-corpo",
+      "dest": "/partes-do-corpo.html"
     }
   ]
 }
