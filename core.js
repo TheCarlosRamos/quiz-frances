@@ -64,7 +64,7 @@
       progressEl.style.width = `${Math.round((step-1)/TOTAL*100)}%`;
 
       const r = rounds[current];
-      termEl.textContent = r.item.fr;
+      termEl.textContent = r.item.it;
       choicesEl.innerHTML = '';
       r.options.forEach(opt => {
         const li = document.createElement('li');
@@ -106,7 +106,7 @@
       usedListEl.innerHTML = '';
       rounds.forEach(r => {
         const li = document.createElement('li');
-        li.textContent = `${r.item.fr} → ${r.item.pt}`;
+        li.textContent = `${r.item.it} → ${r.item.pt}`;
         usedListEl.appendChild(li);
       });
       showScreen('end');

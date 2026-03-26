@@ -3,23 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Futuro Semplice — Quiz Italiano</title>
+  <title>Comidas — Quiz Italiano</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="app">
     <header class="topbar">
-      <h1>Futuro Semplice — Quiz Italiano</h1>
+      <h1>Comidas — Quiz Italiano</h1>
       <p class="subtitle">Italiano → Português • 10 rodadas</p>
     </header>
 
-    <section id="screen-start" class="screen active" aria-labelledby="start-title">
-      <h2 id="start-title">Como funciona</h2>
+    <section id="screen-start" class="screen active">
+      <h2>Como funciona</h2>
       <ul class="rules">
-        <li>Você verá um verbo no <strong>futuro semplice</strong> em italiano.</li>
+        <li>Você verá um termo em <strong>italiano</strong>.</li>
         <li>Escolha a tradução correta em <strong>português</strong>.</li>
-        <li>Ao clicar: <span class="badge wrong">errado = vermelho</span>, <span class="badge correct">certo = verde</span>.</li>
-        <li>São <strong>10 rodadas</strong>. Sua pontuação aparece ao final.</li>
+        <li>Ao clicar: <span class="badge wrong">errado</span>, <span class="badge correct">certo</span>.</li>
       </ul>
       <div class="controls">
         <a class="btn" href="index.html">← Voltar</a>
@@ -27,9 +26,9 @@
       </div>
     </section>
 
-    <section id="screen-quiz" class="screen" aria-live="polite">
+    <section id="screen-quiz" class="screen">
       <div class="hud">
-        <div id="progress" class="progress" aria-label="Progresso"><div class="bar"></div></div>
+        <div id="progress" class="progress"><div class="bar"></div></div>
         <div class="stats">
           <span id="round">Rodada 1/10</span>
           <span id="score">Score: 0</span>
@@ -39,16 +38,16 @@
       <div class="card">
         <h2 class="prompt">Tradução para:</h2>
         <div id="term" class="infinitive">—</div>
-        <ol id="choices" class="choices" role="listbox" aria-label="Alternativas"></ol>
+        <ol id="choices" class="choices"></ol>
         <div class="controls">
           <button id="btn-next" class="btn" disabled>Próximo</button>
         </div>
       </div>
     </section>
 
-    <section id="screen-end" class="screen" aria-labelledby="end-title">
-      <h2 id="end-title">Resultado</h2>
-      <p id="final-text" class="final-text"></p>
+    <section id="screen-end" class="screen">
+      <h2>Resultado</h2>
+      <p id="final-text"></p>
       <div class="actions">
         <button id="btn-retry" class="btn primary">Jogar novamente</button>
         <a class="btn" href="index.html">← Voltar</a>
@@ -60,11 +59,11 @@
     </section>
 
     <footer class="footer">
-      <p><strong>Dica:</strong> Fique atento aos verbos irregulares no futuro semplice (ex: essere → sarò, avere → avrò).</p>
+      <p><strong>Dica:</strong> Palavras italianas frequentemente terminam em -o, -a, -i, -e.</p>
     </footer>
   </main>
 
   <script src="core.js"></script>
-  <script src="future-simple.js"></script>
+  <script src="comidas.js"></script>
 </body>
 </html>
