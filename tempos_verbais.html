@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Tempos Verbais - Quiz de Francês</title>
+  <link rel="stylesheet" href="style.css?v=2.0" />
+  <style>
+    /* Estilos específicos para as tabelas */
+    .table-container {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(51, 65, 85, 0.4));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      margin: 32px 0;
+      backdrop-filter: blur(20px);
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .table-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    }
+
+    .table-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .table-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 1.1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: rgba(26, 31, 46, 0.3);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    thead {
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+    }
+
+    th {
+      padding: 18px 16px;
+      text-align: left;
+      font-weight: 700;
+      color: white;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: none;
+      position: relative;
+    }
+
+    th:first-child {
+      border-top-left-radius: 16px;
+      min-width: 150px;
+    }
+
+    th:last-child {
+      border-top-right-radius: 16px;
+    }
+
+    td {
+      padding: 16px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.3);
+      color: var(--text);
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      vertical-align: top;
+    }
+
+    tbody tr {
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    tbody tr:hover {
+      background: rgba(59, 130, 246, 0.1);
+      transform: scale(1.01);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 16px;
+    }
+
+    tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 16px;
+    }
+
+    td:first-child {
+      font-weight: 600;
+      color: #f1f5f9;
+      background: rgba(51, 65, 85, 0.2);
+    }
+
+    .tempo-verbal {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+    }
+
+    .estrutura {
+      font-family: 'Courier New', monospace;
+      background: rgba(59, 130, 246, 0.1);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #93c5fd;
+      border: 1px solid rgba(59, 130, 246, 0.2);
+    }
+
+    .uso {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    .exemplo {
+      color: #f1f5f9;
+      font-style: italic;
+      background: rgba(139, 92, 246, 0.1);
+      padding: 8px 12px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+      margin: 4px 0;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .table-container {
+        padding: 20px 16px;
+        margin: 20px 0;
+      }
+
+      .table-title {
+        font-size: 1.5rem;
+      }
+
+      .table-subtitle {
+        font-size: 1rem;
+      }
+
+      th, td {
+        padding: 12px 8px;
+        font-size: 0.85rem;
+      }
+
+      th {
+        font-size: 0.8rem;
+      }
+
+      .tempo-verbal {
+        font-size: 0.95rem;
+      }
+
+      .estrutura {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+      }
+
+      .exemplo {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .table-container {
+        padding: 16px 12px;
+      }
+
+      th, td {
+        padding: 10px 6px;
+        font-size: 0.8rem;
+      }
+
+      th {
+        font-size: 0.75rem;
+        padding: 8px 6px;
+      }
+
+      .table-title {
+        font-size: 1.3rem;
+      }
+
+      .tempo-verbal {
+        font-size: 0.9rem;
+      }
+
+      .estrutura {
+        font-size: 0.75rem;
+        padding: 3px 6px;
+      }
+
+      .exemplo {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+      }
+    }
+
+    /* Animações */
+    @keyframes tableFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .table-container {
+      animation: tableFadeIn 0.8s ease-out;
+    }
+
+    tbody tr {
+      animation: tableFadeIn 0.8s ease-out backwards;
+    }
+
+    tbody tr:nth-child(1) { animation-delay: 0.1s; }
+    tbody tr:nth-child(2) { animation-delay: 0.2s; }
+    tbody tr:nth-child(3) { animation-delay: 0.3s; }
+    tbody tr:nth-child(4) { animation-delay: 0.4s; }
+    tbody tr:nth-child(5) { animation-delay: 0.5s; }
+    tbody tr:nth-child(6) { animation-delay: 0.6s; }
+    tbody tr:nth-child(7) { animation-delay: 0.7s; }
+    tbody tr:nth-child(8) { animation-delay: 0.8s; }
+    tbody tr:nth-child(9) { animation-delay: 0.9s; }
+    tbody tr:nth-child(10) { animation-delay: 1.0s; }
+
+    /* Scroll horizontal para mobile */
+    @media (max-width: 768px) {
+      .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      table {
+        min-width: 600px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Tempos Verbais</h1>
+      <p class="subtitle">Guia completo dos 10 principais tempos verbais do francês</p>
+    </header>
+
+    <div class="table-container">
+      <h2 class="table-title">Tempos Verbais do Francês</h2>
+      <p class="table-subtitle">Estrutura, uso e exemplos práticos do dia a dia</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Tempo Verbal</th>
+            <th>Estrutura / Fórmula</th>
+            <th>Uso Principal</th>
+            <th>Exemplo Cotidiano</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="tempo-verbal">Présent</span></td>
+            <td><span class="estrutura">Radical + terminações do presente</span></td>
+            <td><span class="uso">Ação atual / hábitos</span></td>
+            <td><span class="exemplo">Elle prépare le dîner tous les jours.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Imparfait</span></td>
+            <td><span class="estrutura">Radical de "nous" no presente − ais, ais, ait, ions, iez, aient</span></td>
+            <td><span class="uso">Descrição / hábito no passado</span></td>
+            <td><span class="exemplo">Quand j'étais enfant, elle préparait le dîner.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Passé Composé</span></td>
+            <td><span class="estrutura">Auxiliar (avoir/être) no presente + particípio passado</span></td>
+            <td><span class="uso">Ação passada concluída</span></td>
+            <td><span class="exemplo">Elle a préparé le dîner hier soir.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Plus-que-parfait</span></td>
+            <td><span class="estrutura">Auxiliar (avoir/être) no imparfait + particípio passado</span></td>
+            <td><span class="uso">Passado do passado</span></td>
+            <td><span class="exemplo">Elle avait préparé le dîner avant notre arrivée.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Futur Proche</span></td>
+            <td><span class="estrutura">Aller no presente + infinitivo</span></td>
+            <td><span class="uso">Planos imediatos / certos</span></td>
+            <td><span class="exemplo">Elle va préparer le dîner ce soir.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Futur Simple</span></td>
+            <td><span class="estrutura">Infinitivo + terminações do futuro</span></td>
+            <td><span class="uso">Futuro distante / promessas</span></td>
+            <td><span class="exemplo">Elle préparera le dîner demain.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Futur Antérieur</span></td>
+            <td><span class="estrutura">Auxiliar (avoir/être) no futuro + particípio passado</span></td>
+            <td><span class="uso">Ação futura já concluída</span></td>
+            <td><span class="exemplo">Elle aura préparé le dîner quand nous arriverons.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Gérondif</span></td>
+            <td><span class="estrutura">En + radical de "nous" + ant</span></td>
+            <td><span class="uso">Ações simultâneas</span></td>
+            <td><span class="exemplo">Elle parle en préparant le dîner.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Conditionnel Présent</span></td>
+            <td><span class="estrutura">Radical do futuro + terminações do imparfait</span></td>
+            <td><span class="uso">Hipótese / condição</span></td>
+            <td><span class="exemplo">Elle préparerait le dîner si elle avait le temps.</span></td>
+          </tr>
+          <tr>
+            <td><span class="tempo-verbal">Conditionnel Passé</span></td>
+            <td><span class="estrutura">Auxiliar no condicional + particípio passado</span></td>
+            <td><span class="uso">Hipótese no passado</span></td>
+            <td><span class="exemplo">Elle aurait préparé le dîner si elle n'était pas fatiguée.</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="controls">
+      <a href="index.html" class="btn">← Voltar ao Menu</a>
+    </div>
+
+    <footer class="footer">
+      <p><strong>Dica:</strong> Pratique cada tempo verbal com os quizzes específicos disponíveis no menu principal!</p>
+      <p class="footer-links">
+        <a href="tabela_terminacoes.html" class="btn">Ver Terminações</a>
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>

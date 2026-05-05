@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Tabela de Terminações - Quiz de Francês</title>
+  <link rel="stylesheet" href="style.css?v=2.0" />
+  <style>
+    /* Estilos específicos para as tabelas */
+    .table-container {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(51, 65, 85, 0.4));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      margin: 32px 0;
+      backdrop-filter: blur(20px);
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .table-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    }
+
+    .table-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .table-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 1.1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: rgba(26, 31, 46, 0.3);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    thead {
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+    }
+
+    th {
+      padding: 18px 16px;
+      text-align: left;
+      font-weight: 700;
+      color: white;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: none;
+      position: relative;
+    }
+
+    th:first-child {
+      border-top-left-radius: 16px;
+    }
+
+    th:last-child {
+      border-top-right-radius: 16px;
+    }
+
+    td {
+      padding: 16px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.3);
+      color: var(--text);
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    tbody tr {
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    tbody tr:hover {
+      background: rgba(59, 130, 246, 0.1);
+      transform: scale(1.01);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 16px;
+    }
+
+    tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 16px;
+    }
+
+    td:first-child {
+      font-weight: 600;
+      color: #f1f5f9;
+      background: rgba(51, 65, 85, 0.2);
+    }
+
+    .terminacao {
+      font-family: 'Courier New', monospace;
+      font-weight: 700;
+      color: var(--accent);
+      background: rgba(139, 92, 246, 0.1);
+      padding: 4px 8px;
+      border-radius: 6px;
+      display: inline-block;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .table-container {
+        padding: 20px 16px;
+        margin: 20px 0;
+      }
+
+      .table-title {
+        font-size: 1.5rem;
+      }
+
+      .table-subtitle {
+        font-size: 1rem;
+      }
+
+      th, td {
+        padding: 12px 8px;
+        font-size: 0.9rem;
+      }
+
+      th {
+        font-size: 0.85rem;
+      }
+
+      .terminacao {
+        font-size: 0.85rem;
+        padding: 3px 6px;
+        min-width: 40px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .table-container {
+        padding: 16px 12px;
+      }
+
+      th, td {
+        padding: 10px 6px;
+        font-size: 0.85rem;
+      }
+
+      th {
+        font-size: 0.8rem;
+        padding: 8px 6px;
+      }
+
+      .table-title {
+        font-size: 1.3rem;
+      }
+    }
+
+    /* Animações */
+    @keyframes tableFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .table-container {
+      animation: tableFadeIn 0.8s ease-out;
+    }
+
+    tbody tr {
+      animation: tableFadeIn 0.8s ease-out backwards;
+    }
+
+    tbody tr:nth-child(1) { animation-delay: 0.1s; }
+    tbody tr:nth-child(2) { animation-delay: 0.2s; }
+    tbody tr:nth-child(3) { animation-delay: 0.3s; }
+    tbody tr:nth-child(4) { animation-delay: 0.4s; }
+    tbody tr:nth-child(5) { animation-delay: 0.5s; }
+    tbody tr:nth-child(6) { animation-delay: 0.6s; }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Tabela de Terminações</h1>
+      <p class="subtitle">Terminações verbais do francês • Futuro, Condicional e Imparfait</p>
+    </header>
+
+    <div class="table-container">
+      <h2 class="table-title">Terminações Verbais</h2>
+      <p class="table-subtitle">Compare as terminações dos principais tempos verbais</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Pessoa</th>
+            <th>Futur Simple</th>
+            <th>Conditionnel Présent</th>
+            <th>Imparfait</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je</td>
+            <td><span class="terminacao">-ai</span></td>
+            <td><span class="terminacao">-ais</span></td>
+            <td><span class="terminacao">-ais</span></td>
+          </tr>
+          <tr>
+            <td>Tu</td>
+            <td><span class="terminacao">-as</span></td>
+            <td><span class="terminacao">-ais</span></td>
+            <td><span class="terminacao">-ais</span></td>
+          </tr>
+          <tr>
+            <td>Il / Elle / On</td>
+            <td><span class="terminacao">-a</span></td>
+            <td><span class="terminacao">-ait</span></td>
+            <td><span class="terminacao">-ait</span></td>
+          </tr>
+          <tr>
+            <td>Nous</td>
+            <td><span class="terminacao">-ons</span></td>
+            <td><span class="terminacao">-ions</span></td>
+            <td><span class="terminacao">-ions</span></td>
+          </tr>
+          <tr>
+            <td>Vous</td>
+            <td><span class="terminacao">-ez</span></td>
+            <td><span class="terminacao">-iez</span></td>
+            <td><span class="terminacao">-iez</span></td>
+          </tr>
+          <tr>
+            <td>Ils / Elles</td>
+            <td><span class="terminacao">-ont</span></td>
+            <td><span class="terminacao">-aient</span></td>
+            <td><span class="terminacao">-aient</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="controls">
+      <a href="index.html" class="btn">← Voltar ao Menu</a>
+    </div>
+
+    <footer class="footer">
+      <p><strong>Dica:</strong> Observe como o Conditionnel Présent usa as terminações do Imparfait com o radical do futuro!</p>
+      <p class="footer-links">
+        <a href="tempos_verbais.html" class="btn">Ver Tempos Verbais</a>
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>
