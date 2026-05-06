@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Radicais Futuro e Condicional - Quiz de Francês</title>
+  <link rel="stylesheet" href="style.css?v=2.0" />
+  <style>
+    /* Estilos específicos para as tabelas */
+    .table-container {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(51, 65, 85, 0.4));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      margin: 32px 0;
+      backdrop-filter: blur(20px);
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .table-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    }
+
+    .table-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .table-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 1.1rem;
+    }
+
+    .info-box {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .info-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .info-text {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: rgba(26, 31, 46, 0.3);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    thead {
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+    }
+
+    th {
+      padding: 18px 16px;
+      text-align: left;
+      font-weight: 700;
+      color: white;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: none;
+      position: relative;
+    }
+
+    th:first-child {
+      border-top-left-radius: 16px;
+      min-width: 120px;
+    }
+
+    th:last-child {
+      border-top-right-radius: 16px;
+    }
+
+    td {
+      padding: 16px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.3);
+      color: var(--text);
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      vertical-align: middle;
+    }
+
+    tbody tr {
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    tbody tr:hover {
+      background: rgba(59, 130, 246, 0.1);
+      transform: scale(1.01);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 16px;
+    }
+
+    tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 16px;
+    }
+
+    td:first-child {
+      font-weight: 600;
+      color: #f1f5f9;
+      background: rgba(51, 65, 85, 0.2);
+    }
+
+    .verbo {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+    }
+
+    .radical {
+      font-family: 'Courier New', monospace;
+      background: rgba(59, 130, 246, 0.1);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #93c5fd;
+      border: 1px solid rgba(59, 130, 246, 0.2);
+      font-weight: 600;
+      display: inline-block;
+      min-width: 60px;
+      text-align: center;
+    }
+
+    .futur {
+      font-family: 'Courier New', monospace;
+      background: rgba(16, 185, 129, 0.1);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: #86efac;
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      font-weight: 600;
+    }
+
+    .condicional {
+      font-family: 'Courier New', monospace;
+      background: rgba(139, 92, 246, 0.1);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      color: #c4b5fd;
+      border: 1px solid rgba(139, 92, 246, 0.2);
+      font-weight: 600;
+    }
+
+    .exemplo {
+      color: #f1f5f9;
+      font-style: italic;
+      background: rgba(59, 130, 246, 0.1);
+      padding: 8px 12px;
+      border-radius: 8px;
+      border-left: 3px solid var(--primary);
+      margin: 4px 0;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .table-container {
+        padding: 20px 16px;
+        margin: 20px 0;
+      }
+
+      .table-title {
+        font-size: 1.5rem;
+      }
+
+      .table-subtitle {
+        font-size: 1rem;
+      }
+
+      .info-box {
+        padding: 16px;
+      }
+
+      .info-title {
+        font-size: 1.1rem;
+      }
+
+      th, td {
+        padding: 12px 8px;
+        font-size: 0.85rem;
+      }
+
+      th {
+        font-size: 0.8rem;
+      }
+
+      .verbo {
+        font-size: 0.95rem;
+      }
+
+      .radical, .futur, .condicional {
+        font-size: 0.75rem;
+        padding: 4px 6px;
+      }
+
+      .exemplo {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .table-container {
+        padding: 16px 12px;
+      }
+
+      th, td {
+        padding: 10px 6px;
+        font-size: 0.8rem;
+      }
+
+      th {
+        font-size: 0.75rem;
+        padding: 8px 6px;
+      }
+
+      .table-title {
+        font-size: 1.3rem;
+      }
+
+      .verbo {
+        font-size: 0.9rem;
+      }
+
+      .radical, .futur, .condicional {
+        font-size: 0.7rem;
+        padding: 3px 5px;
+      }
+
+      .exemplo {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+      }
+    }
+
+    /* Animações */
+    @keyframes tableFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .table-container {
+      animation: tableFadeIn 0.8s ease-out;
+    }
+
+    tbody tr {
+      animation: tableFadeIn 0.8s ease-out backwards;
+    }
+
+    tbody tr:nth-child(1) { animation-delay: 0.1s; }
+    tbody tr:nth-child(2) { animation-delay: 0.2s; }
+    tbody tr:nth-child(3) { animation-delay: 0.3s; }
+    tbody tr:nth-child(4) { animation-delay: 0.4s; }
+    tbody tr:nth-child(5) { animation-delay: 0.5s; }
+    tbody tr:nth-child(6) { animation-delay: 0.6s; }
+    tbody tr:nth-child(7) { animation-delay: 0.7s; }
+    tbody tr:nth-child(8) { animation-delay: 0.8s; }
+    tbody tr:nth-child(9) { animation-delay: 0.9s; }
+    tbody tr:nth-child(10) { animation-delay: 1.0s; }
+
+    /* Scroll horizontal para mobile */
+    @media (max-width: 768px) {
+      .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      table {
+        min-width: 700px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Radicais Futuro e Condicional</h1>
+      <p class="subtitle">Verbos irregulares no futur simple e conditionnel présent • 10 verbos essenciais</p>
+    </header>
+
+    <div class="table-container">
+      <h2 class="table-title">Radicais Irregulares</h2>
+      <p class="table-subtitle">Compare os radicais irregulares e suas conjugações nos tempos futuro e condicional</p>
+      
+      <div class="info-box">
+        <div class="info-title">📚 Como Funciona</div>
+        <div class="info-text">
+          Os verbos irregulares usam radicais especiais no futur simple e conditionnel présent.<br>
+          O condicional usa as mesmas terminações do imparfait com o radical do futuro.
+        </div>
+      </div>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Verbo (Infinitivo)</th>
+            <th>Radical Irregular</th>
+            <th>Futur Simple</th>
+            <th>Conditionnel Présent</th>
+            <th>Exemplo (Futur)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="verbo">Être</span></td>
+            <td><span class="radical">ser-</span></td>
+            <td><span class="futur">je serai</span></td>
+            <td><span class="condicional">je serais</span></td>
+            <td><span class="exemplo">Je serai prêt demain.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Avoir</span></td>
+            <td><span class="radical">aur-</span></td>
+            <td><span class="futur">j'aurai</span></td>
+            <td><span class="condicional">j'aurais</span></td>
+            <td><span class="exemplo">Elle aura du temps.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Aller</span></td>
+            <td><span class="radical">ir-</span></td>
+            <td><span class="futur">j'irai</span></td>
+            <td><span class="condicional">j'irais</span></td>
+            <td><span class="exemplo">Nous irons à Paris.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Faire</span></td>
+            <td><span class="radical">fer-</span></td>
+            <td><span class="futur">je ferai</span></td>
+            <td><span class="condicional">je ferais</span></td>
+            <td><span class="exemplo">Il fera ses devoirs.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Pouvoir</span></td>
+            <td><span class="radical">pourr-</span></td>
+            <td><span class="futur">je pourrai</span></td>
+            <td><span class="condicional">je pourrais</span></td>
+            <td><span class="exemplo">Tu pourras venir.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Vouloir</span></td>
+            <td><span class="radical">voudr-</span></td>
+            <td><span class="futur">je voudrai</span></td>
+            <td><span class="condicional">je voudrais</span></td>
+            <td><span class="exemplo">Je voudrai comprendre.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Savoir</span></td>
+            <td><span class="radical">saur-</span></td>
+            <td><span class="futur">je saurai</span></td>
+            <td><span class="condicional">je saurais</span></td>
+            <td><span class="exemplo">Elle saura la réponse.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Venir</span></td>
+            <td><span class="radical">viendr-</span></td>
+            <td><span class="futur">je viendrai</span></td>
+            <td><span class="condicional">je viendrais</span></td>
+            <td><span class="exemplo">Il viendra ce soir.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Voir</span></td>
+            <td><span class="radical">verr-</span></td>
+            <td><span class="futur">je verrai</span></td>
+            <td><span class="condicional">je verrais</span></td>
+            <td><span class="exemplo">Nous verrons le film.</span></td>
+          </tr>
+          <tr>
+            <td><span class="verbo">Devoir</span></td>
+            <td><span class="radical">devr-</span></td>
+            <td><span class="futur">je devrai</span></td>
+            <td><span class="condicional">je devrais</span></td>
+            <td><span class="exemplo">Vous devrez étudier.</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="controls">
+      <a href="index.html" class="btn">← Voltar ao Menu</a>
+    </div>
+
+    <footer class="footer">
+      <p><strong>Dica:</strong> Memorize os radicais irregulares - eles são a base para futur simple e conditionnel!</p>
+      <p class="footer-links">
+        <a href="verbos-passe-etre.html" class="btn">Ver Verbos Être</a>
+        <a href="verbos_irregulares.html" class="btn">Ver Verbos Irregulares</a>
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>

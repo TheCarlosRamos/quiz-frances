@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Verbos Irregulares - Quiz de Francês</title>
+  <link rel="stylesheet" href="style.css?v=2.0" />
+  <style>
+    /* Estilos específicos para as tabelas */
+    .table-container {
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.8), rgba(51, 65, 85, 0.4));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      margin: 32px 0;
+      backdrop-filter: blur(20px);
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .table-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    }
+
+    .table-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .table-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 1.1rem;
+    }
+
+    .stats-box {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: block;
+    }
+
+    .stat-label {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 4px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: rgba(26, 31, 46, 0.3);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    thead {
+      background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+    }
+
+    th {
+      padding: 18px 16px;
+      text-align: left;
+      font-weight: 700;
+      color: white;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: none;
+      position: relative;
+    }
+
+    th:first-child {
+      border-top-left-radius: 16px;
+      min-width: 60px;
+      text-align: center;
+    }
+
+    th:last-child {
+      border-top-right-radius: 16px;
+    }
+
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.3);
+      color: var(--text);
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      vertical-align: middle;
+    }
+
+    tbody tr {
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    tbody tr:hover {
+      background: rgba(59, 130, 246, 0.1);
+      transform: scale(1.01);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 16px;
+    }
+
+    tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 16px;
+    }
+
+    td:first-child {
+      font-weight: 700;
+      color: #f1f5f9;
+      background: rgba(51, 65, 85, 0.2);
+      text-align: center;
+    }
+
+    .verbo {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+    }
+
+    .significado {
+      color: #f1f5f9;
+    }
+
+    .observacao {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 0.85rem;
+    }
+
+    .tag-auxiliar {
+      background: linear-gradient(135deg, var(--correct), #059669);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .tag-modal {
+      background: linear-gradient(135deg, var(--accent), #7c3aed);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .tag-familia {
+      background: linear-gradient(135deg, var(--wrong), #dc2626);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .table-container {
+        padding: 20px 16px;
+        margin: 20px 0;
+      }
+
+      .table-title {
+        font-size: 1.5rem;
+      }
+
+      .table-subtitle {
+        font-size: 1rem;
+      }
+
+      .stats-box {
+        padding: 12px;
+        gap: 12px;
+      }
+
+      .stat-number {
+        font-size: 1.5rem;
+      }
+
+      th, td {
+        padding: 10px 8px;
+        font-size: 0.8rem;
+      }
+
+      th {
+        font-size: 0.75rem;
+      }
+
+      .verbo {
+        font-size: 0.95rem;
+      }
+
+      .observacao {
+        font-size: 0.75rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .table-container {
+        padding: 16px 12px;
+      }
+
+      th, td {
+        padding: 8px 6px;
+        font-size: 0.75rem;
+      }
+
+      th {
+        font-size: 0.7rem;
+        padding: 6px 4px;
+      }
+
+      .table-title {
+        font-size: 1.3rem;
+      }
+
+      .verbo {
+        font-size: 0.9rem;
+      }
+
+      .observacao {
+        font-size: 0.7rem;
+      }
+
+      .stat-number {
+        font-size: 1.2rem;
+      }
+    }
+
+    /* Animações */
+    @keyframes tableFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .table-container {
+      animation: tableFadeIn 0.8s ease-out;
+    }
+
+    tbody tr {
+      animation: tableFadeIn 0.8s ease-out backwards;
+    }
+
+    tbody tr:nth-child(1) { animation-delay: 0.02s; }
+    tbody tr:nth-child(2) { animation-delay: 0.04s; }
+    tbody tr:nth-child(3) { animation-delay: 0.06s; }
+    tbody tr:nth-child(4) { animation-delay: 0.08s; }
+    tbody tr:nth-child(5) { animation-delay: 0.10s; }
+    tbody tr:nth-child(6) { animation-delay: 0.12s; }
+    tbody tr:nth-child(7) { animation-delay: 0.14s; }
+    tbody tr:nth-child(8) { animation-delay: 0.16s; }
+    tbody tr:nth-child(9) { animation-delay: 0.18s; }
+    tbody tr:nth-child(10) { animation-delay: 0.20s; }
+    tbody tr:nth-child(11) { animation-delay: 0.22s; }
+    tbody tr:nth-child(12) { animation-delay: 0.24s; }
+    tbody tr:nth-child(13) { animation-delay: 0.26s; }
+    tbody tr:nth-child(14) { animation-delay: 0.28s; }
+    tbody tr:nth-child(15) { animation-delay: 0.30s; }
+    tbody tr:nth-child(16) { animation-delay: 0.32s; }
+    tbody tr:nth-child(17) { animation-delay: 0.34s; }
+    tbody tr:nth-child(18) { animation-delay: 0.36s; }
+    tbody tr:nth-child(19) { animation-delay: 0.38s; }
+    tbody tr:nth-child(20) { animation-delay: 0.40s; }
+    tbody tr:nth-child(21) { animation-delay: 0.42s; }
+    tbody tr:nth-child(22) { animation-delay: 0.44s; }
+    tbody tr:nth-child(23) { animation-delay: 0.46s; }
+    tbody tr:nth-child(24) { animation-delay: 0.48s; }
+    tbody tr:nth-child(25) { animation-delay: 0.50s; }
+    tbody tr:nth-child(26) { animation-delay: 0.52s; }
+    tbody tr:nth-child(27) { animation-delay: 0.54s; }
+    tbody tr:nth-child(28) { animation-delay: 0.56s; }
+    tbody tr:nth-child(29) { animation-delay: 0.58s; }
+    tbody tr:nth-child(30) { animation-delay: 0.60s; }
+    tbody tr:nth-child(31) { animation-delay: 0.62s; }
+    tbody tr:nth-child(32) { animation-delay: 0.64s; }
+    tbody tr:nth-child(33) { animation-delay: 0.66s; }
+    tbody tr:nth-child(34) { animation-delay: 0.68s; }
+    tbody tr:nth-child(35) { animation-delay: 0.70s; }
+    tbody tr:nth-child(36) { animation-delay: 0.72s; }
+    tbody tr:nth-child(37) { animation-delay: 0.74s; }
+    tbody tr:nth-child(38) { animation-delay: 0.76s; }
+    tbody tr:nth-child(39) { animation-delay: 0.78s; }
+    tbody tr:nth-child(40) { animation-delay: 0.80s; }
+    tbody tr:nth-child(41) { animation-delay: 0.82s; }
+    tbody tr:nth-child(42) { animation-delay: 0.84s; }
+    tbody tr:nth-child(43) { animation-delay: 0.86s; }
+    tbody tr:nth-child(44) { animation-delay: 0.88s; }
+    tbody tr:nth-child(45) { animation-delay: 0.90s; }
+    tbody tr:nth-child(46) { animation-delay: 0.92s; }
+    tbody tr:nth-child(47) { animation-delay: 0.94s; }
+    tbody tr:nth-child(48) { animation-delay: 0.96s; }
+    tbody tr:nth-child(49) { animation-delay: 0.98s; }
+    tbody tr:nth-child(50) { animation-delay: 1.00s; }
+    tbody tr:nth-child(51) { animation-delay: 1.02s; }
+    tbody tr:nth-child(52) { animation-delay: 1.04s; }
+    tbody tr:nth-child(53) { animation-delay: 1.06s; }
+    tbody tr:nth-child(54) { animation-delay: 1.08s; }
+    tbody tr:nth-child(55) { animation-delay: 1.10s; }
+
+    /* Scroll horizontal para mobile */
+    @media (max-width: 768px) {
+      .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      table {
+        min-width: 600px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Verbos Irregulares</h1>
+      <p class="subtitle">Lista completa dos 55 verbos irregulares mais importantes do francês</p>
+    </header>
+
+    <div class="table-container">
+      <h2 class="table-title">Verbos Irregulares do Francês</h2>
+      <p class="table-subtitle">Organizados por importância e categorias gramaticais</p>
+      
+      <div class="stats-box">
+        <div class="stat-item">
+          <span class="stat-number">55</span>
+          <span class="stat-label">Verbos Totais</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Auxiliares</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">8</span>
+          <span class="stat-label">Famílias</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Modais</span>
+        </div>
+      </div>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Verbo (Infinitivo)</th>
+            <th>Significado</th>
+            <th>Observação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><span class="verbo">être</span></td>
+            <td><span class="significado">ser / estar</span></td>
+            <td><span class="tag-auxiliar">Auxiliar</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><span class="verbo">avoir</span></td>
+            <td><span class="significado">ter</span></td>
+            <td><span class="tag-auxiliar">Auxiliar</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><span class="verbo">aller</span></td>
+            <td><span class="significado">ir</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><span class="verbo">faire</span></td>
+            <td><span class="significado">fazer</span></td>
+            <td><span class="observacao">Altamente frequente</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><span class="verbo">dire</span></td>
+            <td><span class="significado">dizer</span></td>
+            <td><span class="observacao">Verbo de fala</span></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><span class="verbo">voir</span></td>
+            <td><span class="significado">ver</span></td>
+            <td><span class="observacao">Irregular no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><span class="verbo">venir</span></td>
+            <td><span class="significado">vir</span></td>
+            <td><span class="tag-familia">Família venir</span></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><span class="verbo">devenir</span></td>
+            <td><span class="significado">tornar-se</span></td>
+            <td><span class="tag-familia">Família venir</span></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><span class="verbo">revenir</span></td>
+            <td><span class="significado">voltar</span></td>
+            <td><span class="tag-familia">Família venir</span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><span class="verbo">prendre</span></td>
+            <td><span class="significado">pegar</span></td>
+            <td><span class="tag-familia">Família prendre</span></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><span class="verbo">mettre</span></td>
+            <td><span class="significado">colocar</span></td>
+            <td><span class="tag-familia">Família mettre</span></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><span class="verbo">pouvoir</span></td>
+            <td><span class="significado">poder</span></td>
+            <td><span class="tag-modal">Modal</span></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><span class="verbo">vouloir</span></td>
+            <td><span class="significado">querer</span></td>
+            <td><span class="tag-modal">Modal</span></td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><span class="verbo">devoir</span></td>
+            <td><span class="significado">dever</span></td>
+            <td><span class="tag-modal">Modal</span></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><span class="verbo">savoir</span></td>
+            <td><span class="significado">saber</span></td>
+            <td><span class="observacao">Conhecimento</span></td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td><span class="verbo">lire</span></td>
+            <td><span class="significado">ler</span></td>
+            <td><span class="tag-familia">Família lire</span></td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td><span class="verbo">boire</span></td>
+            <td><span class="significado">beber</span></td>
+            <td><span class="observacao">Radical variável</span></td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td><span class="verbo">écrire</span></td>
+            <td><span class="significado">escrever</span></td>
+            <td><span class="observacao">Forma irregular</span></td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td><span class="verbo">recevoir</span></td>
+            <td><span class="significado">receber</span></td>
+            <td><span class="observacao">-voir irregular</span></td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td><span class="verbo">connaître</span></td>
+            <td><span class="significado">conhecer</span></td>
+            <td><span class="observacao">Accent circonflexe</span></td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td><span class="verbo">croire</span></td>
+            <td><span class="significado">acreditar</span></td>
+            <td><span class="tag-familia">Família croire</span></td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td><span class="verbo">tenir</span></td>
+            <td><span class="significado">segurar</span></td>
+            <td><span class="tag-familia">Família tenir</span></td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td><span class="verbo">obtenir</span></td>
+            <td><span class="significado">obter</span></td>
+            <td><span class="tag-familia">Família tenir</span></td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td><span class="verbo">apprendre</span></td>
+            <td><span class="significado">aprender</span></td>
+            <td><span class="tag-familia">Família prendre</span></td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td><span class="verbo">comprendre</span></td>
+            <td><span class="significado">compreender</span></td>
+            <td><span class="tag-familia">Família prendre</span></td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td><span class="verbo">ouvrir</span></td>
+            <td><span class="significado">abrir</span></td>
+            <td><span class="tag-familia">Família ouvrir</span></td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td><span class="verbo">découvrir</span></td>
+            <td><span class="significado">descobrir</span></td>
+            <td><span class="tag-familia">Família ouvrir</span></td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td><span class="verbo">offrir</span></td>
+            <td><span class="significado">oferecer</span></td>
+            <td><span class="tag-familia">Família ouvrir</span></td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td><span class="verbo">souffrir</span></td>
+            <td><span class="significado">sofrer</span></td>
+            <td><span class="observacao">Forma irregular</span></td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td><span class="verbo">vivre</span></td>
+            <td><span class="significado">viver</span></td>
+            <td><span class="observacao">Verbo frequente</span></td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td><span class="verbo">courir</span></td>
+            <td><span class="significado">correr</span></td>
+            <td><span class="observacao">Radical irregular</span></td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td><span class="verbo">falloir</span></td>
+            <td><span class="significado">ser necessário</span></td>
+            <td><span class="observacao">Impessoal</span></td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td><span class="verbo">pleuvoir</span></td>
+            <td><span class="significado">chover</span></td>
+            <td><span class="observacao">Impessoal</span></td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td><span class="verbo">arriver</span></td>
+            <td><span class="significado">chegar</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td><span class="verbo">partir</span></td>
+            <td><span class="significado">partir</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td><span class="verbo">entrer</span></td>
+            <td><span class="significado">entrar</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td><span class="verbo">sortir</span></td>
+            <td><span class="significado">sair</span></td>
+            <td><span class="observacao">Avoir ou être</span></td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td><span class="verbo">rentrer</span></td>
+            <td><span class="significado">voltar</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td><span class="verbo">rester</span></td>
+            <td><span class="significado">ficar</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td><span class="verbo">tomber</span></td>
+            <td><span class="significado">cair</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td><span class="verbo">naître</span></td>
+            <td><span class="significado">nascer</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>42</td>
+            <td><span class="verbo">mourir</span></td>
+            <td><span class="significado">morrer</span></td>
+            <td><span class="observacao">Être no passé composé</span></td>
+          </tr>
+          <tr>
+            <td>43</td>
+            <td><span class="verbo">asseoir</span></td>
+            <td><span class="significado">sentar</span></td>
+            <td><span class="observacao">Conjugação dupla</span></td>
+          </tr>
+          <tr>
+            <td>44</td>
+            <td><span class="verbo">dormir</span></td>
+            <td><span class="significado">dormir</span></td>
+            <td><span class="observacao">-ir irregular</span></td>
+          </tr>
+          <tr>
+            <td>45</td>
+            <td><span class="verbo">rire</span></td>
+            <td><span class="significado">rir</span></td>
+            <td><span class="observacao">Particípio passé curto</span></td>
+          </tr>
+          <tr>
+            <td>46</td>
+            <td><span class="verbo">servir</span></td>
+            <td><span class="significado">servir</span></td>
+            <td><span class="observacao">-ir irregular</span></td>
+          </tr>
+          <tr>
+            <td>47</td>
+            <td><span class="verbo">sentir</span></td>
+            <td><span class="significado">sentir</span></td>
+            <td><span class="observacao">-ir irregular</span></td>
+          </tr>
+          <tr>
+            <td>48</td>
+            <td><span class="verbo">suivre</span></td>
+            <td><span class="significado">seguir</span></td>
+            <td><span class="observacao">Radical modificado</span></td>
+          </tr>
+          <tr>
+            <td>49</td>
+            <td><span class="verbo">produire</span></td>
+            <td><span class="significado">produzir</span></td>
+            <td><span class="tag-familia">Família dire</span></td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td><span class="verbo">traduire</span></td>
+            <td><span class="significado">traduzir</span></td>
+            <td><span class="tag-familia">Família dire</span></td>
+          </tr>
+          <tr>
+            <td>51</td>
+            <td><span class="verbo">permettre</span></td>
+            <td><span class="significado">permitir</span></td>
+            <td><span class="tag-familia">Família mettre</span></td>
+          </tr>
+          <tr>
+            <td>52</td>
+            <td><span class="verbo">promettre</span></td>
+            <td><span class="significado">prometer</span></td>
+            <td><span class="tag-familia">Família mettre</span></td>
+          </tr>
+          <tr>
+            <td>53</td>
+            <td><span class="verbo">prévenir</span></td>
+            <td><span class="significado">avisar</span></td>
+            <td><span class="tag-familia">Família venir</span></td>
+          </tr>
+          <tr>
+            <td>54</td>
+            <td><span class="verbo">maintenir</span></td>
+            <td><span class="significado">manter</span></td>
+            <td><span class="tag-familia">Família tenir</span></td>
+          </tr>
+          <tr>
+            <td>55</td>
+            <td><span class="verbo">soutenir</span></td>
+            <td><span class="significado">sustentar</span></td>
+            <td><span class="tag-familia">Família tenir</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="controls">
+      <a href="index.html" class="btn">← Voltar ao Menu</a>
+    </div>
+
+    <footer class="footer">
+      <p><strong>Dica:</strong> Estude as famílias de verbos para memorizar padrões de conjugação mais facilmente!</p>
+      <p class="footer-links">
+        <a href="verbos-passe-etre.html" class="btn">Ver Verbos Être</a>
+        <a href="radicais_futuro_condicional_ireg.html" class="btn">Ver Radicais do Futuro</a>
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>
