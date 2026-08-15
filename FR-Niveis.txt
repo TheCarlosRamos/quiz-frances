@@ -1,0 +1,1032 @@
+
+| Français | Português | Nível |
+|----------|-----------|-------|
+| bonjour | bom dia | L1 |
+| bonsoir | boa noite | L1 |
+| salut | oi | L1 |
+| au revoir | até logo | L1 |
+| merci | obrigado | L1 |
+| s'il vous plaît | por favor | L1 |
+| oui | sim | L1 |
+| non | não | L1 |
+| comment | como | L1 |
+| où | onde | L1 |
+| pourquoi | porquê | L1 |
+| quand | quando | L1 |
+| et | e | L1 |
+| avec | com | L1 |
+| dans | em, dentro | L1 |
+| de, d' | de | L1 |
+| à | a | L1 |
+| ami(e) | amigo(a) | L1 |
+| père | pai | L1 |
+| mère | mãe | L1 |
+| fils | filho | L1 |
+| fille | menina, garota / filha | L1 |
+| frère | irmão | L1 |
+| sœur | irmã | L1 |
+| famille | família | L1 |
+| maison | casa | L1 |
+| école | escola | L1 |
+| hôtel | hotel | L1 |
+| restaurant | restaurante | L1 |
+| café | café | L1 |
+| pain | pão | L1 |
+| eau | água | L1 |
+| vin | vinho | L1 |
+| fromage | queijo | L1 |
+| fruit | fruta | L1 |
+| viande | carne | L1 |
+| poisson | peixe | L1 |
+| pomme | maçã | L1 |
+| chocolat | chocolate | L1 |
+| sel | sal | L1 |
+| sucre | açúcar | L1 |
+| œuf | ovo | L1 |
+| beurre | manteiga | L1 |
+| grand(e) | grande | L1 |
+| petit(e) | pequeno(a) | L1 |
+| beau, belle | bonito(a), lindo(a) | L1 |
+| bon(ne) | bom(a) | L1 |
+|| | | |
+| être | ser / estar | L2 |
+| avoir | ter | L2 |
+| aller | ir | L2 |
+| faire | fazer | L2 |
+| parler | falar | L2 |
+| manger | comer | L2 |
+| boire | beber | L2 |
+| dormir | dormir | L2 |
+| lire | ler | L2 |
+| écrire | escrever | L2 |
+| voir | ver | L2 |
+| entendre | ouvir | L2 |
+| comprendre | compreender | L2 |
+| savoir | saber | L2 |
+| pouvoir | poder | L2 |
+| vouloir | querer | L2 |
+| devoir | dever | L2 |
+| aimer | gostar / amar | L2 |
+| acheter | comprar | L2 |
+| vendre | vender | L2 |
+| travailler | trabalhar | L2 |
+| étudier | estudar | L2 |
+| habiter | morar | L2 |
+| voyager | viajar | L2 |
+| arriver | chegar | L2 |
+| partir | partir | L2 |
+| attendre | esperar | L2 |
+| répondre | responder | L2 |
+| demander | pedir / perguntar | L2 |
+| donner | dar | L2 |
+| prendre | pegar / tomar | L2 |
+| mettre | colocar | L2 |
+| trouver | achar / encontrar | L2 |
+| regarder | olhar / assistir | L2 |
+| écouter | escutar | L2 |
+| fermer | fechar | L2 |
+| ouvrir | abrir | L2 |
+| venir | vir | L2 |
+|| | | |
+| jour | dia | L3 |
+| semaine | semana | L3 |
+| mois | mês | L3 |
+| an, année | ano | L3 |
+| lundi | segunda-feira | L3 |
+| mardi | terça-feira | L3 |
+| mercredi | quarta-feira | L3 |
+| jeudi | quinta-feira | L3 |
+| vendredi | sexta-feira | L3 |
+| samedi | sábado | L3 |
+| dimanche | domingo | L3 |
+| janvier | janeiro | L3 |
+| février | fevereiro | L3 |
+| mars | março | L3 |
+| avril | abril | L3 |
+| mai | maio | L3 |
+| juin | junho | L3 |
+| juillet | julho | L3 |
+| août | agosto | L3 |
+| septembre | setembro | L3 |
+| octobre | outubro | L3 |
+| novembre | novembro | L3 |
+| décembre | dezembro | L3 |
+| printemps | primavera | L3 |
+| été | verão | L3 |
+| automne | outono | L3 |
+| hiver | inverno | L3 |
+| chaud(e) | quente | L3 |
+| froid(e) | frio(a) | L3 |
+| très | muito | L3 |
+| beaucoup | muito | L3 |
+| peu | pouco | L3 |
+| toujours | sempre | L3 |
+| jamais | nunca | L3 |
+| déjà | já | L3 |
+| encore | ainda | L3 |
+| maintenant | agora | L3 |
+| après | depois | L3 |
+| avant | antes | L3 |
+| aujourd'hui | hoje | L3 |
+| demain | amanhã | L3 |
+| hier | ontem | L3 |
+|| | | |
+| ville | cidade | L4 |
+| quartier | bairro | L4 |
+| rue | rua | L4 |
+| avenue | avenida | L4 |
+| boulevard | bulevar | L4 |
+| place | praça | L4 |
+| parc | parque | L4 |
+| jardin | jardim | L4 |
+| église | igreja | L4 |
+| musée | museu | L4 |
+| cinéma | cinema | L4 |
+| théâtre | teatro | L4 |
+| bibliothèque | biblioteca | L4 |
+| poste | correio | L4 |
+| banque | banco | L4 |
+| magasin | loja | L4 |
+| boutique | boutique / loja | L4 |
+| marché | mercado | L4 |
+| supermarché | supermercado | L4 |
+| boulangerie | padaria | L4 |
+| boucherie | açougue | L4 |
+| fromagerie | loja de queijos | L4 |
+| pâtisserie | confeitaria | L4 |
+| épicerie | mercearia | L4 |
+| pharmacie | farmácia | L4 |
+| hôpital | hospital | L4 |
+| mairie | prefeitura | L4 |
+| gare | estação | L4 |
+| aéroport | aeroporto | L4 |
+| métro | metrô | L4 |
+| bus | ônibus | L4 |
+| train | trem | L4 |
+| avion | avião | L4 |
+| bateau | barco | L4 |
+| vélo | bicicleta | L4 |
+| voiture | carro | L4 |
+| chauffeur | motorista | L4 |
+| billet | bilhete / passagem | L4 |
+| carte | cartão / mapa | L4 |
+| adresse | endereço | L4 |
+| numéro | número | L4 |
+| téléphone | telefone | L4 |
+|| | | |
+| agréable | agradável | L5 |
+| désagréable | desagradável | L5 |
+| content(e) | contente | L5 |
+| fatigué(e) | cansado(a) | L5 |
+| ennuyeux(euse) | chato(a) | L5 |
+| drôle | engraçado(a) | L5 |
+| gentil(le) | gentil | L5 |
+| difficile | difícil | L5 |
+| facile | fácil | L5 |
+| cher(ère) | caro(a) | L5 |
+| bon marché | barato | L5 |
+| court(e) | curto(a) | L5 |
+| long(ue) | longo(a) | L5 |
+| large | largo(a) | L5 |
+| étroit(e) | estreito(a) | L5 |
+| foncé(e) | escuro(a) | L5 |
+| clair(e) | claro(a) | L5 |
+| ancien(ne) | antigo(a) | L5 |
+| nouveau, nouvelle | novo(a) | L5 |
+| dernier(ère) | último(a) | L5 |
+| premier(ère) | primeiro(a) | L5 |
+| même | mesmo(a) | L5 |
+| autre | outro(a) | L5 |
+| chaque | cada | L5 |
+| certain(e) | certo(a) | L5 |
+| seul(e) | sozinho(a) | L5 |
+| ensemble | juntos | L5 |
+| pendant | durante | L5 |
+| depuis | desde | L5 |
+| jusqu'à | até | L5 |
+| environ | cerca de | L5 |
+| environ | aproximadamente | L5 |
+| surtout | principalmente | L5 |
+| même | até / mesmo | L5 |
+| ainsi | assim | L5 |
+| donc | portanto | L5 |
+| car | pois | L5 |
+| parce que | porque | L5 |
+| puisque | já que | L5 |
+| bien que | embora | L5 |
+|| | | |
+| confiance | confiança | L6 |
+| croyance | crença | L6 |
+| espérance | esperança | L6 |
+| compétition | competição | L6 |
+| championnat | campeonato | L6 |
+| course | corrida | L6 |
+| concours | concurso | L6 |
+| exposition | exposição | L6 |
+| conférence | conferência | L6 |
+| entretien | entrevista | L6 |
+| compagnie | companhia | L6 |
+| affaires | negócios | L6 |
+| coordinateur(trice) | coordenador(a) | L6 |
+| facteur(trice) | carteiro(a) / fator | L6 |
+| avocat(e) | advogado(a) | L6 |
+| dentiste | dentista | L6 |
+| médecin | médico(a) | L6 |
+| directeur(trice) | diretor(a) | L6 |
+| gérant(e) | gerente | L6 |
+| secrétaire | secretário(a) | L6 |
+| employé(e) | funcionário(a) | L6 |
+| entreprise | empresa | L6 |
+| bureau | escritório | L6 |
+| réunion | reunião | L6 |
+| contrat | contrato | L6 |
+| salaire | salário | L6 |
+| impôt | imposto | L6 |
+| retraite | aposentadoria | L6 |
+| assurance | seguro | L6 |
+| héritage | herança | L6 |
+| succession | sucessão | L6 |
+| patrimoine | patrimônio | L6 |
+| investissement | investimento | L6 |
+| finance | finanças | L6 |
+| économie | economia | L6 |
+| politique | política | L6 |
+| culture | cultura | L6 |
+| société | sociedade | L6 |
+| citoyen(ne) | cidadão(ã) | L6 |
+| démocratie | democracia | L6 |
+| république | república | L6 |
+| gouvernement | governo | L6 |
+| parlement | parlamento | L6 |
+| élection | eleição | L6 |
+| scrutin | escrutínio / votação | L6 |
+| référendum | referendo | L6 |
+| constitution | constituição | L6 |
+| législation | legislação | L6 |
+| règlement | regulamento | L6 |
+| juridique | jurídico(a) | L6 |
+
+Este é um agrupamento sugestivo baseado na frequência, no grau de dificuldade semântica e na complexidade gramatical/estrutural das palavras em francês.
+
+Com certeza! Com base no glossário, na lista de verbos, vocabulário e expressões fornecidos, organizei as palavras em 6 níveis de dificuldade (do mais básico ao mais avançado), considerando frequência de uso, complexidade e especificidade do vocábulo.
+
+| Français | Português | Nível |
+|----------|-----------|-------|
+| bonjour | bom dia | L1 |
+| bonsoir | boa noite | L1 |
+| salut | oi | L1 |
+| au revoir | até logo | L1 |
+| merci | obrigado | L1 |
+| de rien | de nada | L1 |
+| s'il vous plaît | por favor | L1 |
+| oui | sim | L1 |
+| non | não | L1 |
+| je | eu | L1 |
+| tu | tu / você | L1 |
+| il/elle | ele/ela | L1 |
+| nous | nós | L1 |
+| vous | vocês / senhor(es) | L1 |
+| ils/elles | eles/elas | L1 |
+| comment | como | L1 |
+| où | onde | L1 |
+| quand | quando | L1 |
+| pourquoi | porquê | L1 |
+| et | e | L1 |
+| ou | ou | L1 |
+| avec | com | L1 |
+| dans | em, dentro | L1 |
+| sur | sobre | L1 |
+| pour | para | L1 |
+| par | por | L1 |
+| de, d' | de | L1 |
+| à | a | L1 |
+| un, une, des | um, uma, uns, umas | L1 |
+| le, la, l', les | o, a, os, as | L1 |
+| mon, ma, mes | meu(s), minha(s) | L1 |
+| ton, ta, tes | teu(s), tua(s) | L1 |
+| son, sa, ses | seu(s), sua(s) (dele/dela) | L1 |
+| notre, nos | nosso(s), nossa(s) | L1 |
+| votre, vos | vosso(s), vossa(s) / seu(s) | L1 |
+| leur, leurs | seu(s), sua(s) (deles/elas) | L1 |
+| ami(e) | amigo(a) | L1 |
+| père | pai | L1 |
+| mère | mãe | L1 |
+| frère | irmão | L1 |
+| sœur | irmã | L1 |
+| famille | família | L1 |
+| maison | casa | L1 |
+| école | escola | L1 |
+| hôtel | hotel | L1 |
+| restaurant | restaurante | L1 |
+| café | café | L1 |
+| pain | pão | L1 |
+| fromage | queijo | L1 |
+| fruit | fruta | L1 |
+| légume | legume | L1 |
+| viande | carne | L1 |
+| poisson | peixe | L1 |
+| pomme | maçã | L1 |
+| pomme de terre | batata | L1 |
+| chocolat | chocolate | L1 |
+| sel | sal | L1 |
+| sucre | açúcar | L1 |
+| œuf | ovo | L1 |
+| beurre | manteiga | L1 |
+| lait | leite | L1 |
+| thé | chá | L1 |
+| jus (de fruit) | suco (de fruta) | L1 |
+| eau | água | L1 |
+| grand(e) | grande | L1 |
+| petit(e) | pequeno(a) | L1 |
+| beau, belle | bonito(a), lindo(a) | L1 |
+| bon(ne) | bom(a) | L1 |
+| mauvais(e) | ruim | L1 |
+|| | | |
+| être | ser / estar | L2 |
+| avoir | ter | L2 |
+| aller | ir | L2 |
+| faire | fazer | L2 |
+| parler | falar | L2 |
+| manger | comer | L2 |
+| boire | beber | L2 |
+| dormir | dormir | L2 |
+| lire | ler | L2 |
+| écrire | escrever | L2 |
+| voir | ver | L2 |
+| entendre | ouvir | L2 |
+| comprendre | compreender | L2 |
+| savoir | saber | L2 |
+| pouvoir | poder | L2 |
+| vouloir | querer | L2 |
+| devoir | dever | L2 |
+| aimer | gostar / amar | L2 |
+| acheter | comprar | L2 |
+| vendre | vender | L2 |
+| travailler | trabalhar | L2 |
+| étudier | estudar | L2 |
+| habiter | morar | L2 |
+| voyager | viajar | L2 |
+| arriver | chegar | L2 |
+| partir | partir | L2 |
+| attendre | esperar | L2 |
+| réponder | responder | L2 |
+| demander | pedir / perguntar | L2 |
+| donner | dar | L2 |
+| prendre | pegar / tomar | L2 |
+| mettre | colocar | L2 |
+| trouver | achar / encontrar | L2 |
+| regarder | olhar / assistir | L2 |
+| écouter | escutar | L2 |
+| fermer | fechar | L2 |
+| ouvrir | abrir | L2 |
+| venir | vir | L2 |
+| sortir | sair | L2 |
+| entrer | entrar | L2 |
+| monter | subir | L2 |
+| descendre | descer | L2 |
+| arrêter | parar | L2 |
+| continuer | continuar | L2 |
+|| | | |
+| jour | dia | L3 |
+| semaine | semana | L3 |
+| mois | mês | L3 |
+| an, année | ano | L3 |
+| lundi | segunda-feira | L3 |
+| mardi | terça-feira | L3 |
+| mercredi | quarta-feira | L3 |
+| jeudi | quinta-feira | L3 |
+| vendredi | sexta-feira | L3 |
+| samedi | sábado | L3 |
+| dimanche | domingo | L3 |
+| janvier | janeiro | L3 |
+| février | fevereiro | L3 |
+| mars | março | L3 |
+| avril | abril | L3 |
+| mai | maio | L3 |
+| juin | junho | L3 |
+| juillet | julho | L3 |
+| août | agosto | L3 |
+| septembre | setembro | L3 |
+| octobre | outubro | L3 |
+| novembre | novembro | L3 |
+| décembre | dezembro | L3 |
+| printemps | primavera | L3 |
+| été | verão | L3 |
+| automne | outono | L3 |
+| hiver | inverno | L3 |
+| aujourd'hui | hoje | L3 |
+| demain | amanhã | L3 |
+| hier | ontem | L3 |
+| avant-hier | antes de ontem | L3 |
+| après-demain | depois de amanhã | L3 |
+| matin | manhã | L3 |
+| après-midi | tarde | L3 |
+| soir | noite (período) | L3 |
+| nuit | noite | L3 |
+| midi | meio-dia | L3 |
+| minuit | meia-noite | L3 |
+| heure | hora | L3 |
+| minute | minuto | L3 |
+| seconde | segundo | L3 |
+| chaud(e) | quente | L3 |
+| froid(e) | frio(a) | L3 |
+| très | muito | L3 |
+| beaucoup | muito | L3 |
+| peu | pouco | L3 |
+| toujours | sempre | L3 |
+| jamais | nunca | L3 |
+| déjà | já | L3 |
+| encore | ainda | L3 |
+| maintenant | agora | L3 |
+| après | depois | L3 |
+| avant | antes | L3 |
+| tard | tarde (advérbio) | L3 |
+| tôt | cedo | L3 |
+| souvent | frequentemente | L3 |
+|| | | |
+| ville | cidade | L4 |
+| quartier | bairro | L4 |
+| rue | rua | L4 |
+| avenue | avenida | L4 |
+| boulevard | bulevar | L4 |
+| place | praça | L4 |
+| parc | parque | L4 |
+| jardin | jardim | L4 |
+| musée | museu | L4 |
+| cinéma | cinema | L4 |
+| théâtre | teatro | L4 |
+| bibliothèque | biblioteca | L4 |
+| banque | banco | L4 |
+| magasin | loja | L4 |
+| boutique | boutique / loja | L4 |
+| marché | mercado | L4 |
+| supermarché | supermercado | L4 |
+| boulangerie | padaria | L4 |
+| boucherie | açougue | L4 |
+| fromagerie | loja de queijos | L4 |
+| pâtisserie | confeitaria | L4 |
+| épicerie | mercearia | L4 |
+| pharmacie | farmácia | L4 |
+| hôpital | hospital | L4 |
+| gare | estação | L4 |
+| aéroport | aeroporto | L4 |
+| métro | metrô | L4 |
+| bus | ônibus | L4 |
+| train | trem | L4 |
+| avion | avião | L4 |
+| bateau | barco | L4 |
+| vélo | bicicleta | L4 |
+| voiture | carro | L4 |
+| moto | moto | L4 |
+| taxi | táxi | L4 |
+| chauffeur | motorista | L4 |
+| billet | bilhete / passagem | L4 |
+| carte | cartão / mapa | L4 |
+| adresse | endereço | L4 |
+| numéro | número | L4 |
+| téléphone | telefone | L4 |
+| ordinateur | computador | L4 |
+| portable | celular | L4 |
+| journal | jornal | L4 |
+| magazine | revista | L4 |
+| professeur(e) | professor(a) | L4 |
+| secrétaire | secretário(a) | L4 |
+| journaliste | jornalista | L4 |
+| médecin | médico(a) | L4 |
+| vendeur(euse) | vendedor(a) | L4 |
+| serveur(se) | garçom / garçonete | L4 |
+|| | | |
+| agréable | agradável | L5 |
+| désagréable | desagradável | L5 |
+| content(e) | contente | L5 |
+| fatigué(e) | cansado(a) | L5 |
+| ennuyeux(euse) | chato(a) | L5 |
+| drôle | engraçado(a) | L5 |
+| gentil(le) | gentil | L5 |
+| sympathique | simpático(a) | L5 |
+| méchant(e) | mau, malvado(a) | L5 |
+| difficile | difícil | L5 |
+| facile | fácil | L5 |
+| cher(ère) | caro(a) | L5 |
+| bon marché | barato | L5 |
+| court(e) | curto(a) | L5 |
+| long(ue) | longo(a) | L5 |
+| large | largo(a) | L5 |
+| étroit(e) | estreito(a) | L5 |
+| haut(e) | alto(a) | L5 |
+| bas(se) | baixo(a) | L5 |
+| mince | fino(a), magro(a) | L5 |
+| gros(se) | gordo(a) | L5 |
+| foncé(e) | escuro(a) | L5 |
+| clair(e) | claro(a) | L5 |
+| sombre | escuro, sombrio | L5 |
+| noir(e) | preto(a) | L5 |
+| blanc(he) | branco(a) | L5 |
+| rouge | vermelho(a) | L5 |
+| bleu(e) | azul | L5 |
+| vert(e) | verde | L5 |
+| jaune | amarelo(a) | L5 |
+| orange | laranja | L5 |
+| rose | cor-de-rosa, rosa | L5 |
+| gris(e) | cinza | L5 |
+| marron | marrom | L5 |
+| vieux, vieille | velho(a) | L5 |
+| jeune | jovem | L5 |
+| nouveau, nouvelle | novo(a) | L5 |
+| ancien(ne) | antigo(a) | L5 |
+| dernier(ère) | último(a) | L5 |
+| premier(ère) | primeiro(a) | L5 |
+| prochain(e) | próximo(a) | L5 |
+| même | mesmo(a) | L5 |
+| autre | outro(a) | L5 |
+| chaque | cada | L5 |
+| certain(e) | certo(a) | L5 |
+| seul(e) | sozinho(a) | L5 |
+| ensemble | juntos | L5 |
+| riche | rico(a) | L5 |
+| pauvre | pobre | L5 |
+|| | | |
+| avoir faim | ter fome | L6 |
+| avoir soif | ter sede | L6 |
+| avoir sommeil | estar com sono | L6 |
+| avoir envie de | ter vontade de | L6 |
+| avoir peur de | ter medo de | L6 |
+| avoir confiance en | ter confiança em | L6 |
+| avoir mal à la tête | ter dor de cabeça | L6 |
+| avoir de la fièvre | ter febre | L6 |
+| être en avance | estar adiantado | L6 |
+| être en retard | estar atrasado | L6 |
+| être à l'heure | estar na hora certa | L6 |
+| être malade | estar doente | L6 |
+| être en vacances | estar de férias | L6 |
+| être en forme | estar em forma | L6 |
+| faire les courses | fazer as compras | L6 |
+| faire la cuisine | cozinhar | L6 |
+| faire la vaisselle | lavar a louça | L6 |
+| faire le ménage | fazer a faxina | L6 |
+| faire ses devoirs | fazer as tarefas de casa | L6 |
+| faire un cadeau | presentear | L6 |
+| faire un choix | fazer uma escolha | L6 |
+| faire une demande | fazer um pedido | L6 |
+| mettre la table | pôr a mesa | L6 |
+| mettre le couvert | pôr a mesa (talheres) | L6 |
+| jouer à | jogar (esporte/jogo) | L6 |
+| jouer de | tocar (instrumento) | L6 |
+| jouer dans | atuar em (filme/peça) | L6 |
+| participer à | participar de | L6 |
+| demander de l'aide | pedir ajuda | L6 |
+| demander une faveur | pedir um favor | L6 |
+| donner un coup de main | dar uma mão | L6 |
+| avoir une idée | ter uma ideia | L6 |
+| croire en | acreditar em | L6 |
+| apprendre à quelqu'un | ensinar alguém | L6 |
+| compter jusqu'à 10 | contar até 10 | L6 |
+| c'est vrai/faux | é verdade/falso | L6 |
+| ça veut dire | quer dizer | L6 |
+| bien sûr | claro, com certeza | L6 |
+| pas du tout | não mesmo | L6 |
+| tout de suite | imediatamente | L6 |
+| en ce moment | neste momento | L6 |
+| par hasard | por acaso | L6 |
+| en général | em geral, geralmente | L6 |
+| l'année dernière | ano passado | L6 |
+| l'année prochaine | ano que vem | L6 |
+| le mois dernier | mês passado | L6 |
+| le mois prochain | mês que vem | L6 |
+| cette année | este ano | L6 |
+| du lundi au vendredi | de segunda a sexta | L6 |
+| aller simple | ida (bilhete) | L6 |
+| aller-retour | ida e volta | L6 |
+| faire le tour du monde | dar a volta ao mundo | L6 |
+| être en panne | estar quebrado/em pane | L6 |
+| en haut | no alto, em cima | L6 |
+| en bas | embaixo | L6 |
+| à droite | à direita | L6 |
+| à gauche | à esquerda | L6 |
+| tout droit | em frente, reto | L6 |
+
+Este é um agrupamento sugestivo baseado na frequência, no grau de dificuldade semântica e na complexidade gramatical/estrutural das palavras e expressões em francês.
+
+
+Com certeza! Aqui está a complementação da tabela com as palavras e expressões adicionais que estavam faltando, já organizadas nos níveis apropriados:
+
+| Français | Português | Nível |
+|----------|-----------|-------|
+| s'il vous plaît, s'il te plaît | por favor | L1 |
+| salut | oi / tchau | L1 |
+| tous les matins | todas as manhãs | L3 |
+| toutes les nuits | todas as noites | L3 |
+| tous les soirs | todas as noites (período) | L3 |
+| tous les après-midis | todas as tardes | L3 |
+| tout droit | em frente, reto | L4 |
+| tout près | bem perto | L4 |
+| tout seul, toute seule, tous seuls | sozinho(a)(s) | L4 |
+| trois fois par (semaine) | três vezes por (semana) | L4 |
+| une demi-heure | uma meia hora | L4 |
+| plus ou moins | mais ou menos | L5 |
+| peut-être | talvez, pode ser | L5 |
+| presque | quase | L5 |
+| sans problème | sem problema | L5 |
+| sur mesure | sob medida | L5 |
+| prêt-à-porter | pronto para vestir | L5 |
+| payer comptant, cash | pagar à vista | L5 |
+| payer à crédit | pagar a crédito | L5 |
+| payer par carte | pagar com cartão | L5 |
+| payer par chèque | pagar com cheque | L5 |
+| payer en liquide | pagar em dinheiro | L5 |
+| prendre l'ascenseur | pegar o elevador | L4 |
+| prendre l'escalier | pegar a escada | L4 |
+| prendre le petit déjeuner | tomar café da manhã | L3 |
+| prendre le goûter | comer um lanche (à tarde) | L4 |
+| prendre une photo | tirar uma foto | L4 |
+| prendre la commande | anotar o pedido | L5 |
+| prendre rendez-vous | marcar uma consulta/encontro | L5 |
+| passer Noël en famille | passar o Natal em família | L5 |
+| passer par la boulangerie | passar pela padaria | L4 |
+| tourner à droite | virar à direita | L3 |
+| tourner à gauche | virar à esquerda | L3 |
+| regarder un film | assistir a um filme | L3 |
+| rendre visite à | fazer uma visita a | L4 |
+| visite guidée | visita guiada | L5 |
+| viande de bœuf | carne bovina | L5 |
+| viande de porc | carne de porco | L5 |
+| venir de (faire quelque chose) | acabar de (fazer algo) | L5 |
+| pleuvoir | chover | L4 |
+| neiger | nevar | L4 |
+| pour Noël | para o Natal | L3 |
+| en famille | em família | L4 |
+
+---
+
+## Tabela completa consolidada por níveis (Francês)
+
+Abaixo está a tabela completa com todos os itens organizados em 6 níveis:
+
+| Français | Português | Nível |
+|----------|-----------|-------|
+| bonjour | bom dia | L1 |
+| bonsoir | boa noite | L1 |
+| salut | oi / tchau | L1 |
+| au revoir | até logo | L1 |
+| merci | obrigado | L1 |
+| de rien | de nada | L1 |
+| s'il vous plaît / s'il te plaît | por favor | L1 |
+| oui | sim | L1 |
+| non | não | L1 |
+| je | eu | L1 |
+| tu | tu / você | L1 |
+| il/elle | ele/ela | L1 |
+| nous | nós | L1 |
+| vous | vocês / senhor(es) | L1 |
+| ils/elles | eles/elas | L1 |
+| comment | como | L1 |
+| où | onde | L1 |
+| quand | quando | L1 |
+| pourquoi | porquê | L1 |
+| et | e | L1 |
+| ou | ou | L1 |
+| avec | com | L1 |
+| dans | em, dentro | L1 |
+| sur | sobre | L1 |
+| pour | para | L1 |
+| par | por | L1 |
+| de, d' | de | L1 |
+| à | a | L1 |
+| un, une, des | um, uma, uns, umas | L1 |
+| le, la, l', les | o, a, os, as | L1 |
+| mon, ma, mes | meu(s), minha(s) | L1 |
+| ton, ta, tes | teu(s), tua(s) | L1 |
+| son, sa, ses | seu(s), sua(s) (dele/dela) | L1 |
+| notre, nos | nosso(s), nossa(s) | L1 |
+| votre, vos | vosso(s), vossa(s) / seu(s) | L1 |
+| leur, leurs | seu(s), sua(s) (deles/elas) | L1 |
+| ami(e) | amigo(a) | L1 |
+| père | pai | L1 |
+| mère | mãe | L1 |
+| frère | irmão | L1 |
+| sœur | irmã | L1 |
+| famille | família | L1 |
+| maison | casa | L1 |
+| école | escola | L1 |
+| hôtel | hotel | L1 |
+| restaurant | restaurante | L1 |
+| café | café | L1 |
+| pain | pão | L1 |
+| fromage | queijo | L1 |
+| fruit | fruta | L1 |
+| légume | legume | L1 |
+| viande | carne | L1 |
+| poisson | peixe | L1 |
+| pomme | maçã | L1 |
+| pomme de terre | batata | L1 |
+| chocolat | chocolate | L1 |
+| sel | sal | L1 |
+| sucre | açúcar | L1 |
+| œuf | ovo | L1 |
+| beurre | manteiga | L1 |
+| lait | leite | L1 |
+| thé | chá | L1 |
+| jus (de fruit) | suco (de fruta) | L1 |
+| eau | água | L1 |
+| grand(e) | grande | L1 |
+| petit(e) | pequeno(a) | L1 |
+| beau, belle | bonito(a), lindo(a) | L1 |
+| bon(ne) | bom(a) | L1 |
+| mauvais(e) | ruim | L1 |
+| être | ser / estar | L2 |
+| avoir | ter | L2 |
+| aller | ir | L2 |
+| faire | fazer | L2 |
+| parler | falar | L2 |
+| manger | comer | L2 |
+| boire | beber | L2 |
+| dormir | dormir | L2 |
+| lire | ler | L2 |
+| écrire | escrever | L2 |
+| voir | ver | L2 |
+| entendre | ouvir | L2 |
+| comprendre | compreender | L2 |
+| savoir | saber | L2 |
+| pouvoir | poder | L2 |
+| vouloir | querer | L2 |
+| devoir | dever | L2 |
+| aimer | gostar / amar | L2 |
+| acheter | comprar | L2 |
+| vendre | vender | L2 |
+| travailler | trabalhar | L2 |
+| étudier | estudar | L2 |
+| habiter | morar | L2 |
+| voyager | viajar | L2 |
+| arriver | chegar | L2 |
+| partir | partir | L2 |
+| attendre | esperar | L2 |
+| répondre | responder | L2 |
+| demander | pedir / perguntar | L2 |
+| donner | dar | L2 |
+| prendre | pegar / tomar | L2 |
+| mettre | colocar | L2 |
+| trouver | achar / encontrar | L2 |
+| regarder | olhar / assistir | L2 |
+| écouter | escutar | L2 |
+| fermer | fechar | L2 |
+| ouvrir | abrir | L2 |
+| venir | vir | L2 |
+| sortir | sair | L2 |
+| entrer | entrar | L2 |
+| monter | subir | L2 |
+| descendre | descer | L2 |
+| arrêter | parar | L2 |
+| continuer | continuar | L2 |
+| jour | dia | L3 |
+| semaine | semana | L3 |
+| mois | mês | L3 |
+| an, année | ano | L3 |
+| lundi | segunda-feira | L3 |
+| mardi | terça-feira | L3 |
+| mercredi | quarta-feira | L3 |
+| jeudi | quinta-feira | L3 |
+| vendredi | sexta-feira | L3 |
+| samedi | sábado | L3 |
+| dimanche | domingo | L3 |
+| janvier | janeiro | L3 |
+| février | fevereiro | L3 |
+| mars | março | L3 |
+| avril | abril | L3 |
+| mai | maio | L3 |
+| juin | junho | L3 |
+| juillet | julho | L3 |
+| août | agosto | L3 |
+| septembre | setembro | L3 |
+| octobre | outubro | L3 |
+| novembre | novembro | L3 |
+| décembre | dezembro | L3 |
+| printemps | primavera | L3 |
+| été | verão | L3 |
+| automne | outono | L3 |
+| hiver | inverno | L3 |
+| aujourd'hui | hoje | L3 |
+| demain | amanhã | L3 |
+| hier | ontem | L3 |
+| avant-hier | antes de ontem | L3 |
+| après-demain | depois de amanhã | L3 |
+| matin | manhã | L3 |
+| après-midi | tarde | L3 |
+| soir | noite (período) | L3 |
+| nuit | noite | L3 |
+| midi | meio-dia | L3 |
+| minuit | meia-noite | L3 |
+| heure | hora | L3 |
+| minute | minuto | L3 |
+| seconde | segundo | L3 |
+| chaud(e) | quente | L3 |
+| froid(e) | frio(a) | L3 |
+| très | muito | L3 |
+| beaucoup | muito | L3 |
+| peu | pouco | L3 |
+| toujours | sempre | L3 |
+| jamais | nunca | L3 |
+| déjà | já | L3 |
+| encore | ainda | L3 |
+| maintenant | agora | L3 |
+| après | depois | L3 |
+| avant | antes | L3 |
+| tard | tarde (advérbio) | L3 |
+| tôt | cedo | L3 |
+| souvent | frequentemente | L3 |
+| tous les matins | todas as manhãs | L3 |
+| toutes les nuits | todas as noites | L3 |
+| tous les soirs | todas as noites (período) | L3 |
+| tous les après-midis | todas as tardes | L3 |
+| tourner à droite | virar à direita | L3 |
+| tourner à gauche | virar à esquerda | L3 |
+| regarder un film | assistir a um filme | L3 |
+| prendre le petit déjeuner | tomar café da manhã | L3 |
+| pour Noël | para o Natal | L3 |
+| ville | cidade | L4 |
+| quartier | bairro | L4 |
+| rue | rua | L4 |
+| avenue | avenida | L4 |
+| boulevard | bulevar | L4 |
+| place | praça | L4 |
+| parc | parque | L4 |
+| jardin | jardim | L4 |
+| musée | museu | L4 |
+| cinéma | cinema | L4 |
+| théâtre | teatro | L4 |
+| bibliothèque | biblioteca | L4 |
+| banque | banco | L4 |
+| magasin | loja | L4 |
+| marché | mercado | L4 |
+| supermarché | supermercado | L4 |
+| boulangerie | padaria | L4 |
+| boucherie | açougue | L4 |
+| fromagerie | loja de queijos | L4 |
+| pâtisserie | confeitaria | L4 |
+| pharmacie | farmácia | L4 |
+| hôpital | hospital | L4 |
+| gare | estação | L4 |
+| aéroport | aeroporto | L4 |
+| métro | metrô | L4 |
+| bus | ônibus | L4 |
+| train | trem | L4 |
+| avion | avião | L4 |
+| bateau | barco | L4 |
+| vélo | bicicleta | L4 |
+| voiture | carro | L4 |
+| moto | moto | L4 |
+| taxi | táxi | L4 |
+| chauffeur | motorista | L4 |
+| billet | bilhete / passagem | L4 |
+| carte | cartão / mapa | L4 |
+| adresse | endereço | L4 |
+| numéro | número | L4 |
+| téléphone | telefone | L4 |
+| ordinateur | computador | L4 |
+| portable | celular | L4 |
+| journal | jornal | L4 |
+| magazine | revista | L4 |
+| professeur(e) | professor(a) | L4 |
+| secrétaire | secretário(a) | L4 |
+| journaliste | jornalista | L4 |
+| médecin | médico(a) | L4 |
+| vendeur(euse) | vendedor(a) | L4 |
+| serveur(se) | garçom / garçonete | L4 |
+| tout droit | em frente, reto | L4 |
+| tout près | bem perto | L4 |
+| tout seul, toute seule, tous seuls | sozinho(a)(s) | L4 |
+| trois fois par (semaine) | três vezes por (semana) | L4 |
+| une demi-heure | uma meia hora | L4 |
+| prendre l'ascenseur | pegar o elevador | L4 |
+| prendre l'escalier | pegar a escada | L4 |
+| prendre une photo | tirar uma foto | L4 |
+| prendre le goûter | comer um lanche (à tarde) | L4 |
+| passer par la boulangerie | passar pela padaria | L4 |
+| rendre visite à | fazer uma visita a | L4 |
+| pleuvoir | chover | L4 |
+| neiger | nevar | L4 |
+| en famille | em família | L4 |
+| agréable | agradável | L5 |
+| désagréable | desagradável | L5 |
+| content(e) | contente | L5 |
+| fatigué(e) | cansado(a) | L5 |
+| ennuyeux(euse) | chato(a) | L5 |
+| drôle | engraçado(a) | L5 |
+| gentil(le) | gentil | L5 |
+| sympathique | simpático(a) | L5 |
+| méchant(e) | mau, malvado(a) | L5 |
+| difficile | difícil | L5 |
+| facile | fácil | L5 |
+| cher(ère) | caro(a) | L5 |
+| bon marché | barato | L5 |
+| court(e) | curto(a) | L5 |
+| long(ue) | longo(a) | L5 |
+| large | largo(a) | L5 |
+| haut(e) | alto(a) | L5 |
+| bas(se) | baixo(a) | L5 |
+| mince | fino(a), magro(a) | L5 |
+| gros(se) | gordo(a) | L5 |
+| foncé(e) | escuro(a) | L5 |
+| clair(e) | claro(a) | L5 |
+| sombre | escuro, sombrio | L5 |
+| noir(e) | preto(a) | L5 |
+| blanc(he) | branco(a) | L5 |
+| rouge | vermelho(a) | L5 |
+| bleu(e) | azul | L5 |
+| vert(e) | verde | L5 |
+| jaune | amarelo(a) | L5 |
+| orange | laranja | L5 |
+| rose | cor-de-rosa, rosa | L5 |
+| gris(e) | cinza | L5 |
+| marron | marrom | L5 |
+| vieux, vieille | velho(a) | L5 |
+| jeune | jovem | L5 |
+| nouveau, nouvelle | novo(a) | L5 |
+| ancien(ne) | antigo(a) | L5 |
+| dernier(ère) | último(a) | L5 |
+| premier(ère) | primeiro(a) | L5 |
+| prochain(e) | próximo(a) | L5 |
+| même | mesmo(a) | L5 |
+| autre | outro(a) | L5 |
+| chaque | cada | L5 |
+| certain(e) | certo(a) | L5 |
+| seul(e) | sozinho(a) | L5 |
+| ensemble | juntos | L5 |
+| riche | rico(a) | L5 |
+| pauvre | pobre | L5 |
+| plus ou moins | mais ou menos | L5 |
+| peut-être | talvez, pode ser | L5 |
+| presque | quase | L5 |
+| sans problème | sem problema | L5 |
+| sur mesure | sob medida | L5 |
+| prêt-à-porter | pronto para vestir | L5 |
+| payer comptant, cash | pagar à vista | L5 |
+| payer à crédit | pagar a crédito | L5 |
+| payer par carte | pagar com cartão | L5 |
+| payer par chèque | pagar com cheque | L5 |
+| payer en liquide | pagar em dinheiro | L5 |
+| prendre la commande | anotar o pedido | L5 |
+| prendre rendez-vous | marcar uma consulta/encontro | L5 |
+| passer Noël en famille | passar o Natal em família | L5 |
+| visite guidée | visita guiada | L5 |
+| viande de bœuf | carne bovina | L5 |
+| viande de porc | carne de porco | L5 |
+| venir de (faire qqch) | acabar de (fazer algo) | L5 |
+| avoir faim | ter fome | L6 |
+| avoir soif | ter sede | L6 |
+| avoir sommeil | estar com sono | L6 |
+| avoir envie de | ter vontade de | L6 |
+| avoir peur de | ter medo de | L6 |
+| avoir confiance en | ter confiança em | L6 |
+| avoir mal à la tête | ter dor de cabeça | L6 |
+| avoir de la fièvre | ter febre | L6 |
+| être en avance | estar adiantado | L6 |
+| être en retard | estar atrasado | L6 |
+| être à l'heure | estar na hora certa | L6 |
+| être malade | estar doente | L6 |
+| être en vacances | estar de férias | L6 |
+| être en forme | estar em forma | L6 |
+| faire les courses | fazer as compras | L6 |
+| faire la cuisine | cozinhar | L6 |
+| faire la vaisselle | lavar a louça | L6 |
+| faire le ménage | fazer a faxina | L6 |
+| faire ses devoirs | fazer as tarefas de casa | L6 |
+| faire un cadeau | presentear | L6 |
+| faire un choix | fazer uma escolha | L6 |
+| faire une demande | fazer um pedido | L6 |
+| mettre la table | pôr a mesa | L6 |
+| mettre le couvert | pôr a mesa (talheres) | L6 |
+| jouer à | jogar (esporte/jogo) | L6 |
+| jouer de | tocar (instrumento) | L6 |
+| jouer dans | atuar em (filme/peça) | L6 |
+| participer à | participar de | L6 |
+| demander de l'aide | pedir ajuda | L6 |
+| demander une faveur | pedir um favor | L6 |
+| donner un coup de main | dar uma mão | L6 |
+| avoir une idée | ter uma ideia | L6 |
+| croire en | acreditar em | L6 |
+| compter jusqu'à 10 | contar até 10 | L6 |
+| c'est vrai/faux | é verdade/falso | L6 |
+| ça veut dire | quer dizer | L6 |
+| bien sûr | claro, com certeza | L6 |
+| pas du tout | não mesmo | L6 |
+| tout de suite | imediatamente | L6 |
+| en ce moment | neste momento | L6 |
+| par hasard | por acaso | L6 |
+| en général | em geral, geralmente | L6 |
+| l'année dernière | ano passado | L6 |
+| l'année prochaine | ano que vem | L6 |
+| le mois dernier | mês passado | L6 |
+| le mois prochain | mês que vem | L6 |
+| cette année | este ano | L6 |
+| du lundi au vendredi | de segunda a sexta | L6 |
+| aller simple | ida (bilhete) | L6 |
+| aller-retour | ida e volta | L6 |
+| faire le tour du monde | dar a volta ao mundo | L6 |
+| être en panne | estar quebrado/em pane | L6 |
+| en haut | no alto, em cima | L6 |
+| en bas | embaixo | L6 |
+| à droite | à direita | L6 |
+| à gauche | à esquerda | L6 |
+
+Este agrupamento considera frequência de uso, complexidade gramatical, abstração e especificidade cultural dos termos.
+
