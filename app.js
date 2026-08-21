@@ -188,17 +188,14 @@ function renderRound() {
   progressEl.style.width = `${Math.round((step - 1) / TOTAL_ROUNDS * 100)}%`;
 
   infinitiveEl.textContent = r.verb.inf;
-  infinitiveEl.appendChild(QuizSpeech.createButton(r.verb.inf));
   choicesEl.innerHTML = '';
 
   r.options.forEach(opt => {
     const li = document.createElement('li');
     li.className = 'choice';
-    li.dataset.answer = opt;
     li.setAttribute('role', 'option');
     li.setAttribute('tabindex', '0');
-    li.appendChild(document.createTextNode(`${opt} `));
-    li.appendChild(QuizSpeech.createButton(opt));
+    li.textContent = opt;
     li.addEventListener('click', () => selectAnswer(li, r.answer));
     li.addEventListener('keypress', (e) => { if (e.key === 'Enter' || e.key === ' ') selectAnswer(li, r.answer); });
     choicesEl.appendChild(li);
@@ -211,12 +208,12 @@ function lockChoices() {
 
 function selectAnswer(li, correct) {
   if (li.getAttribute('aria-disabled') === 'true') return;
-  const chosen = li.dataset.answer;
+  const chosen = li.textContent;
   const isCorrect = chosen === correct;
   if (isCorrect) { li.classList.add('correct'); score++; scoreEl.textContent = `Score: ${score}`; }
   else { li.classList.add('wrong'); }
 
-  [...choicesEl.children].forEach(el => { if (el.dataset.answer === correct) el.classList.add('correct'); });
+  [...choicesEl.children].forEach(el => { if (el.textContent === correct) el.classList.add('correct'); });
   lockChoices();
   btnNext.disabled = false;
   autoAdvanceTimer = setTimeout(nextRound, 1100);
@@ -234,10 +231,7 @@ function endGame() {
   usedListEl.innerHTML = '';
   rounds.forEach(r => {
     const li = document.createElement('li');
-    li.appendChild(document.createTextNode(`${r.verb.inf} `));
-    li.appendChild(QuizSpeech.createButton(r.verb.inf));
-    li.appendChild(document.createTextNode(` → ${r.verb.pc} `));
-    li.appendChild(QuizSpeech.createButton(r.verb.pc));
+    li.textContent = `${r.verb.inf} → ${r.verb.pc}`;
     usedListEl.appendChild(li);
   });
   showScreen('end');
