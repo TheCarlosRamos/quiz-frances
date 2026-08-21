@@ -65,10 +65,12 @@
 
       const r = rounds[current];
       termEl.textContent = r.item.fr;
+      termEl.appendChild(QuizSpeech.createButton(r.item.fr));
       choicesEl.innerHTML = '';
       r.options.forEach(opt => {
         const li = document.createElement('li');
         li.className = 'choice';
+        li.dataset.answer = opt;
         li.setAttribute('role', 'option');
         li.setAttribute('tabindex', '0');
         li.textContent = opt;
@@ -84,11 +86,11 @@
 
     function select(li, correct){
       if (li.getAttribute('aria-disabled')==='true') return;
-      const chosen = li.textContent;
+      const chosen = li.dataset.answer;
       const ok = chosen === correct;
       if (ok){ li.classList.add('correct'); score++; scoreEl.textContent = `Score: ${score}`; }
       else { li.classList.add('wrong'); }
-      [...choicesEl.children].forEach(el => { if (el.textContent === correct) el.classList.add('correct'); });
+      [...choicesEl.children].forEach(el => { if (el.dataset.answer === correct) el.classList.add('correct'); });
       lock();
       btnNext.disabled = false;
       autoAdvanceTimer = setTimeout(next, 1100);
@@ -106,7 +108,9 @@
       usedListEl.innerHTML = '';
       rounds.forEach(r => {
         const li = document.createElement('li');
-        li.textContent = `${r.item.fr} → ${r.item.pt}`;
+        li.appendChild(document.createTextNode(`${r.item.fr} `));
+        li.appendChild(QuizSpeech.createButton(r.item.fr));
+        li.appendChild(document.createTextNode(` → ${r.item.pt}`));
         usedListEl.appendChild(li);
       });
       showScreen('end');
